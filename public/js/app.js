@@ -1,14 +1,7 @@
-
-
-
-
-
-
 const weatherForm = document.querySelector('form')
 const searchele = document.querySelector('input')
 const mssgone = document.querySelector('#mssg-1')
 const mssgtwo = document.querySelector('#mssg-2')
-
 
 weatherForm.addEventListener('submit',(e)=>{
     // stops automatic and refreshing of a page
